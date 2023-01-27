@@ -14,6 +14,6 @@ def pascal_triangle(n):
             first = 1
             for j in range(1, i + 1):
                 each.append(first)
-                first = first * (i -j) // j
+                first = first * (i - j) // j
             result.append(each)
     return result
