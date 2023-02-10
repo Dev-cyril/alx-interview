@@ -3,6 +3,7 @@
     Minimum Operations
 """
 
+
 def minOperations(n):
     """A function that calculates the minimum number of operations
         needed to result in n H characters
@@ -22,4 +23,3 @@ def minOperations(n):
             index += c_p
             num_op += 1
     return num_op
-
